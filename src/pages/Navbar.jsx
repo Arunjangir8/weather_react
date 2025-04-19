@@ -88,7 +88,7 @@ const Navbar = ({ setCity, API_KEY }) => {
               }}
               className="w-full px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
             />
-            <button type="submit" className="absolute right-2 top-2 text-gray-400">{isLoading ? '...' : <Search size={18} />}</button>
+            <button type="submit" className="absolute right-2 top-2 text-gray-400 dark:text-white">{isLoading ? '...' : <Search size={18} />}</button>
 
           
             {showSuggestions && suggestions.length > 0 && (
@@ -97,7 +97,7 @@ const Navbar = ({ setCity, API_KEY }) => {
                   <div
                     key={i}
                     onClick={() => handleSuggestionClick(sug)}
-                    className="px-3 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="px-3 py-2 cursor-pointer dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     {sug.name}, {sug.country}
                   </div>
