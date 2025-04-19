@@ -67,7 +67,7 @@ const Navbar = ({ setCity, API_KEY }) => {
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-400">WeatherNow</h1>
+        <h1 className="text-xl font-bold text-indigo-600 dark:text-blue-400">WeatherNow</h1>
 
         
         <div className="hidden md:flex items-center gap-6">
@@ -77,7 +77,7 @@ const Navbar = ({ setCity, API_KEY }) => {
             </button>
           ))}
 
-          <form onSubmit={handleSearch} className="relative w-64" ref={suggestionsRef}>
+          <form onSubmit={handleSearch} className="relative w-[450px]" ref={suggestionsRef}>
             <input
               type="text"
               placeholder="Search city..."

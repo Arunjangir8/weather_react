@@ -5,8 +5,10 @@ import Home from './pages/Home'
 import { useState } from 'react'
 
 function App() {
+
   const [City,setCity]=useState("")
   const API_KEY ="a963b279e885490aa47172452251804"
+
   return (
     <>
     <Navbar City={City} setCity={setCity} API_KEY={API_KEY}/>
