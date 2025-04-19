@@ -60,12 +60,12 @@ function WeatherHistory({ city, apiKey }) {
   
           <p className="text-center text-gray-600 dark:text-gray-300">{weather.location.country}</p>
   
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center items-center mb-6">
             <div className="flex items-center justify-around gap-2">
-              <img src={forecast.condition.icon} alt={forecast.condition.text} className="w-20 h-20" />
+              <img src={forecast.condition.icon} alt={forecast.condition.text} className="w-20 h-20 mb-10" />
             </div>
             <select
-              className="p-2 border h-12 border-grey-100 dark:border-none rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 lg:w-[30%] text-center font-bold text-lg mb-16"
+              className="p-2 border h-12 border-grey-100 dark:border-none rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 lg:w-[30%] text-center font-bold text-lg mb-10"
               value={selectedDate}
               onChange={handleDateChange}
             >

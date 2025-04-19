@@ -72,7 +72,7 @@ const Navbar = ({ setCity, API_KEY }) => {
         
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            <button key={link.name} onClick={() => navigate(link.path)} className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400 transition">
+            <button key={link.name} onClick={() => {navigate(link.path)}} className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400 transition">
               {link.name}
             </button>
           ))}
@@ -112,7 +112,7 @@ const Navbar = ({ setCity, API_KEY }) => {
         </div>
 
 
-        <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <button className="md:hidden dark:text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -121,7 +121,7 @@ const Navbar = ({ setCity, API_KEY }) => {
       {isMenuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
           {navLinks.map((link) => (
-            <button key={link.name} onClick={() => navigate(link.path)} className="block w-full text-left text-gray-700 dark:text-gray-300">
+            <button key={link.name} onClick={() => {navigate(link.path) ; setIsMenuOpen(false)}} className="block w-full text-left text-gray-700 dark:text-gray-300">
               {link.name}
             </button>
           ))}
