@@ -14,7 +14,7 @@ const About = () => {
         </p>
 
         <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">🌤 Features</h2>
+          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">Features</h2>
           <ul className="list-disc pl-6 space-y-1 text-gray-700 dark:text-gray-300">
             <li>Get real-time weather updates based on your location or any city worldwide.</li>
             <li>Explore weather history of the past 10 days with detailed statistics.</li>
@@ -24,7 +24,7 @@ const About = () => {
         </div>
 
         <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">👨‍💻 Technologies Used</h2>
+          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">Technologies Used</h2>
           <ul className="list-disc pl-6 space-y-1 text-gray-700 dark:text-gray-300">
             <li>React.js for building dynamic components</li>
             <li>Tailwind CSS for utility-first styling</li>
@@ -32,17 +32,17 @@ const About = () => {
           </ul>
         </div>
 
-        <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">📬 Contact</h2>
+        {/* <div className="space-y-4">
+          <h2 className="text-2xl font-semibold text-indigo-600 dark:text-blue-300">Contact</h2>
           <p className="text-gray-700 dark:text-gray-300">
             Have feedback or suggestions? Feel free to reach out at:
             <br />
             <a href="mailto:your.email@example.com" className="text-indigo-600 dark:text-blue-300 underline">arunjangir9987@example.com</a>
           </p>
-        </div>
+        </div> */}
 
         <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-10">
-          &copy; {new Date().getFullYear()} WeatherWise. All rights reserved.
+          &copy; {new Date().getFullYear()} WeatherNow. All rights reserved.
         </p>
       </div>
     </div>

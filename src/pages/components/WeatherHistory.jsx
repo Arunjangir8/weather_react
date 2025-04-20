@@ -52,7 +52,7 @@ function WeatherHistory({ city, apiKey }) {
     // const date = weather.forecast.forecastday[0].date;
   
     return (
-        <div className="max-w-[950px] mx-6 bg-white dark:bg-gray-900 shadow-xl dark:shadow-[0_0_20px_rgba(255,255,255,0.15)] rounded-2xl p-6 space-y-6 mb-12">
+        <div className="max-w-[950px] mx-6 bg-white dark:bg-gray-900 shadow-xl dark:shadow-[0_0_20px_rgba(255,255,255,0.15)] rounded-2xl p-6 space-y-6 mb-12 transition duration-300">
   
           <h2 className="text-3xl font-bold text-center text-indigo-600 dark:text-blue-400">
             Past Weather in {weather.location.name}
@@ -62,10 +62,10 @@ function WeatherHistory({ city, apiKey }) {
   
           <div className="flex justify-center items-center mb-6">
             <div className="flex items-center justify-around gap-2">
-              <img src={forecast.condition.icon} alt={forecast.condition.text} className="w-20 h-20 mb-10" />
+              <img src={forecast.condition.icon} alt={forecast.condition.text} className="w-20 h-20 mb-9" />
             </div>
             <select
-              className="p-2 border h-12 border-grey-100 dark:border-none rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 lg:w-[30%] text-center font-bold text-lg mb-10"
+              className="p-2 border h-12 border-grey-100 dark:border-none rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 lg:w-[40%] text-center font-bold text-lg mb-9"
               value={selectedDate}
               onChange={handleDateChange}
             >

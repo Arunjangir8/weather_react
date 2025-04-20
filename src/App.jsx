@@ -9,7 +9,7 @@ import Footer from './pages/Footer'
 
 function App() {
 
-  const [City,setCity]=useState("")
+  const [City,setCity]=useState("new delhi")
   const API_KEY ="a963b279e885490aa47172452251804"
 
   return (
