@@ -18,8 +18,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-white py-14 px-6">
-      <div className="max-w-3xl mx-auto bg-white dark:bg-gray-900 shadow-xl rounded-2xl p-8 space-y-6 transition duration-300">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-100 to-white dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-white py-14 px-6 dark:shadow-[0_0_20px_rgba(255,255,255,0.15)]">
+      <div className="max-w-3xl mx-auto bg-white dark:bg-gray-900 shadow-xl rounded-2xl p-8 space-y-6 transition duration-300 dark:shadow-[0_0_20px_rgba(255,255,255,0.15)]">
 
         <h1 className="text-4xl font-bold text-center text-indigo-600 dark:text-blue-400">
           Contact Us

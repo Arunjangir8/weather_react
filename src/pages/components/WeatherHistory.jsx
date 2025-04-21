@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import Loader from './Loader';
 
-function WeatherHistory({ city, apiKey , setCity}) {
+function WeatherHistory({ city, apiKey }) {
     const [weather, setWeather] = useState(null);
     const [selectedDate, setSelectedDate] = useState('');
     const [loading, setLoading] = useState(true);
