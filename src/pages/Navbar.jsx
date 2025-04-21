@@ -77,9 +77,9 @@ const Navbar = ({ setCity, API_KEY }) => {
               placeholder="Search city..."
               value={searchQuery}
               onChange={(e) => {
-                if (e.target.value.trim() !== ""){
+                if (e.target.value.trim() !== "") {
                   setSearchQuery(e.target.value);
-                setShowSuggestions(true);
+                  setShowSuggestions(true);
                 }
               }}
               className="w-full px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
@@ -102,23 +102,22 @@ const Navbar = ({ setCity, API_KEY }) => {
               </div>
             )}
           </form>
-          
-          <div className='flex justify-between'>
-          <button onClick={() => setIsDarkMode(!isDarkMode)} className="ml-2 text-gray-600 dark:text-gray-300">
-            {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
-          </button>
-          <DigitalClock/>
+          <div className='flex justify-between mr-0 '>
+            <button onClick={() => setIsDarkMode(!isDarkMode)} className="ml-2 text-gray-600 dark:text-gray-300">
+              {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
+            </button>
+            <DigitalClock />
           </div>
         </div>
-        
-        <div className='flex gap-4 '>
-        <button onClick={() => setIsDarkMode(!isDarkMode)} className="md:hidden dark:text-white ml-2 text-gray-600 dark:text-gray-300">
-        {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
-        </button>
 
-        <button className="md:hidden dark:text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          {isMenuOpen ? <X size={30} /> : (<Menu size={30} />) }
-        </button>
+        <div className='flex gap-4 md:hidden'>
+          <button onClick={() => setIsDarkMode(!isDarkMode)} className="md:hidden dark:text-white ml-2 text-gray-600 dark:text-gray-300">
+            {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
+          </button>
+
+          <button className="md:hidden dark:text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            {isMenuOpen ? <X size={30} /> : (<Menu size={30} />)}
+          </button>
         </div>
       </div>
 
