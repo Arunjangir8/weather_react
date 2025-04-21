@@ -105,7 +105,7 @@ const Navbar = ({ setCity, API_KEY }) => {
           
           <div className='flex justify-between'>
           <button onClick={() => setIsDarkMode(!isDarkMode)} className="ml-2 text-gray-600 dark:text-gray-300">
-            {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
           </button>
           <DigitalClock/>
           </div>
