@@ -1,12 +1,106 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A modern weather application that provides real-time weather data and forecasts. Built with clean architecture and intuitive design to deliver accurate weather information in a user-friendly format.
 
-Currently, two official plugins are available:
+## Features
+* Current weather conditions display
+* Multi-day weather forecasts
+* Location-based weather detection
+* Search functionality for global weather data
+* Responsive design for all devices
+* Detailed weather metrics (temperature, humidity, wind, etc.)
+* Dark Mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+* React.js for frontend development
+* Tailwind for styling
+* Weather API integration
+* Local storage for saving user preferences
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/Arunjangir8/weather_react.git
+
+# Navigate to project directory
+cd weather_react
+
+# Install dependencies
+npm install
+
+# Create environment variables
+# Create a .env file in the root directory with your API key:
+# REACT_APP_WEATHER_API_KEY=your_api_key_here
+
+# Start the development server
+npm run dev
+```
+
+## Usage
+1. Allow location access or search for a city
+2. View current weather conditions
+3. Check the forecast for upcoming days
+4. Access detailed weather information by clicking on specific days
+
+## Project Structure
+
+```
+weather-app/
+├── public/
+├── src/
+│   ├── Pages/components/
+│   │   │    ├── DigitalClock/
+│   │   │    ├── Loader/
+│   │   │    ├── WeatherHistory/
+│   │   │    └── WeatherNowI/
+│   │   ├── Contact/
+│   │   ├── footer/
+│   │   ├── Home/
+│   │   ├── Navbar/
+│   │   └── About/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .env
+└── package.json
+```
+
+## Images
+
+![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.41.37 PM.png)
+
+
+![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.41.44 PM.png)
+
+
+![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.42.01 PM.png)
+
+
+![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.42.10 PM.png)
+
+
+## API Reference
+This application uses Weather API for fetching weather data.
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+Your Name - Arun
+
+Project Link: https://github.com/Arunjangir8/weather_react
+
+## Acknowledgements
+* Weather API
+* React Documentation
+* Font Awesome for weather icons
