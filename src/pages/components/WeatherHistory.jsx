@@ -2,13 +2,13 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import Loader from './Loader';
 
-function WeatherHistory({ city, apiKey }) {
+function WeatherHistory({ city, apiKey , setCity}) {
     const [weather, setWeather] = useState(null);
     const [selectedDate, setSelectedDate] = useState('');
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
   
-    const last10Days = Array.from({ length: 10 }, (_, i) => {
+    const last10Days = Array.from({ length: 10 }, (k, i) => {
       const date = new Date();
       date.setDate(date.getDate() - (i + 1));
       return date.toISOString().split('T')[0];
@@ -26,7 +26,7 @@ function WeatherHistory({ city, apiKey }) {
         setError(null);
         try {
           const res = await fetch(
-            `http://api.weatherapi.com/v1/history.json?key=${apiKey}&q=${city}&dt=${selectedDate}`
+            `https://api.weatherapi.com/v1/history.json?key=${apiKey}&q=${city}&dt=${selectedDate}`
           );
           if (!res.ok) throw new Error('Failed to fetch weather');
           const data = await res.json();

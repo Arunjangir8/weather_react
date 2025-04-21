@@ -9,7 +9,7 @@ const Home = ({ city, setcity, API_KEY }) => {
       
         <WeatherNow city={city} setcity={setcity} API_KEY={API_KEY}/>
     
-        <WeatherHistory city={city} apiKey={API_KEY} />
+        <WeatherHistory city={city} apiKey={API_KEY} setCity={setcity} />
       
       </div>
     </>
