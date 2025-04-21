@@ -76,12 +76,6 @@ weather-app/
 ![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.41.44 PM.png)
 
 
-![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.42.01 PM.png)
-
-
-![alt text](./ReadmeSS/Screenshot%202025-04-21%20at%2011.42.10 PM.png)
-
-
 ## API Reference
 This application uses Weather API for fetching weather data.
 
