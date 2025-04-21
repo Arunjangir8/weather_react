@@ -17,7 +17,7 @@ export default function Loader({ text = "Loading Weather..." }) {
     const timer = setTimeout(() => setIsLoading(false), 3000);  
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % WEATHER_ICONS.length);
-    }, 100);
+    }, 300);
 
     return () => {
       clearTimeout(timer);
