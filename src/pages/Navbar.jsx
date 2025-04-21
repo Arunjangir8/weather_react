@@ -113,11 +113,11 @@ const Navbar = ({ setCity, API_KEY }) => {
         
         <div className='flex gap-4 '>
         <button onClick={() => setIsDarkMode(!isDarkMode)} className="md:hidden dark:text-white ml-2 text-gray-600 dark:text-gray-300">
-        {isDarkMode ? <Sun size={20} /> : <Moon size={30} />}
+        {isDarkMode ? <Sun size={30} /> : <Moon size={30} />}
         </button>
 
         <button className="md:hidden dark:text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          {isMenuOpen ? <X size={24} /> : (<Menu size={30} />) }
+          {isMenuOpen ? <X size={30} /> : (<Menu size={30} />) }
         </button>
         </div>
       </div>
