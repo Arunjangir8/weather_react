@@ -1,5 +1,4 @@
 
-import SideBar from './components/SideBar';
 import WeatherHistory from './components/WeatherHistory';
 import WeatherNow from './components/WeatherNow';
 

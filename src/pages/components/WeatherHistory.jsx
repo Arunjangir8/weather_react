@@ -49,7 +49,6 @@ function WeatherHistory({ city, apiKey }) {
     if (error) return <p className="text-red-500">Error: {error}</p>;
   
     const forecast = weather.forecast.forecastday[0].day;
-    // const date = weather.forecast.forecastday[0].date;
   
     return (
         <div className="max-w-[950px] mx-6 bg-white dark:bg-gray-900 shadow-xl dark:shadow-[0_0_20px_rgba(255,255,255,0.15)] rounded-2xl p-6 space-y-6 mb-12 transition duration-300">
@@ -81,7 +80,7 @@ function WeatherHistory({ city, apiKey }) {
       <p><span className="font-semibold">Date:</span> {forecast.date}</p>
     </div> */}
   
-          <div className="grid grid-cols-2 gap-4 text-sm">
+          <div className="grid grid-cols-2 gap-4 text-sm dark:text-black dark:font-bold">
             <div className="bg-indigo-100 dark:bg-blue-400 p-3 rounded-lg">
               <p className="font-semibold">Max Temp</p>
               <p>{forecast.maxtemp_c}°C</p>

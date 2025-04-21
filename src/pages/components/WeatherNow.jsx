@@ -73,7 +73,7 @@ const WeatherNow = ({ city, setcity, API_KEY }) => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 text-sm">
+            <div className="grid grid-cols-2 gap-4 text-sm dark:text-black dark:font-bold">
               <div className="bg-indigo-100 dark:bg-blue-400 p-3 rounded-lg ">
                 <p className="font-semibold">Feels Like</p>
                 <p>{current.feelslike_c}°C</p>

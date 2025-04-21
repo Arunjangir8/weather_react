@@ -1,0 +1,340 @@
+<!-- sample rectangle -->
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="100%" height="100%" fill="#000510" />
+  
+  <!-- Small stars -->
+  <g fill="#FFFFFF">
+    <!-- Random small stars with different opacities -->
+    <g opacity="0.8">
+      <circle cx="128" cy="120" r="1" />
+      <circle cx="236" cy="360" r="1" />
+      <circle cx="450" cy="230" r="1" />
+      <circle cx="740" cy="320" r="1" />
+      <circle cx="890" cy="156" r="1" />
+      <circle cx="1050" cy="450" r="1" />
+      <circle cx="1290" cy="320" r="1" />
+      <circle cx="1390" cy="120" r="1" />
+      <circle cx="1570" cy="230" r="1" />
+      <circle cx="1750" cy="410" r="1" />
+      <circle cx="1850" cy="300" r="1" />
+      <circle cx="350" cy="560" r="1" />
+      <circle cx="530" cy="620" r="1" />
+      <circle cx="750" cy="580" r="1" />
+      <circle cx="970" cy="710" r="1" />
+      <circle cx="1150" cy="650" r="1" />
+      <circle cx="1330" cy="720" r="1" />
+      <circle cx="1580" cy="590" r="1" />
+      <circle cx="1750" cy="680" r="1" />
+      <circle cx="190" cy="820" r="1" />
+      <circle cx="320" cy="880" r="1" />
+      <circle cx="490" cy="790" r="1" />
+      <circle cx="660" cy="860" r="1" />
+      <circle cx="890" cy="810" r="1" />
+      <circle cx="1050" cy="890" r="1" />
+      <circle cx="1250" cy="840" r="1" />
+      <circle cx="1430" cy="910" r="1" />
+      <circle cx="1620" cy="850" r="1" />
+      <circle cx="1790" cy="930" r="1" />
+      <circle cx="245" cy="1020" r="1" />
+      <circle cx="470" cy="980" r="1" />
+      <circle cx="680" cy="1050" r="1" />
+      <circle cx="910" cy="990" r="1" />
+      <circle cx="1110" cy="1030" r="1" />
+      <circle cx="1350" cy="1010" r="1" />
+      <circle cx="1520" cy="970" r="1" />
+      <circle cx="1720" cy="1040" r="1" />
+    </g>
+    
+    <!-- Medium stars with higher opacity -->
+    <g opacity="0.9">
+      <circle cx="160" cy="180" r="1.5" />
+      <circle cx="320" cy="260" r="1.5" />
+      <circle cx="580" cy="150" r="1.5" />
+      <circle cx="820" cy="210" r="1.5" />
+      <circle cx="1030" cy="290" r="1.5" />
+      <circle cx="1240" cy="190" r="1.5" />
+      <circle cx="1490" cy="270" r="1.5" />
+      <circle cx="1680" cy="150" r="1.5" />
+      <circle cx="250" cy="480" r="1.5" />
+      <circle cx="430" cy="420" r="1.5" />
+      <circle cx="690" cy="470" r="1.5" />
+      <circle cx="890" cy="440" r="1.5" />
+      <circle cx="1080" cy="510" r="1.5" />
+      <circle cx="1280" cy="460" r="1.5" />
+      <circle cx="1450" cy="530" r="1.5" />
+      <circle cx="1670" cy="450" r="1.5" />
+      <circle cx="130" cy="720" r="1.5" />
+      <circle cx="380" cy="670" r="1.5" />
+      <circle cx="570" cy="730" r="1.5" />
+      <circle cx="780" cy="690" r="1.5" />
+      <circle cx="960" cy="750" r="1.5" />
+      <circle cx="1190" cy="710" r="1.5" />
+      <circle cx="1380" cy="770" r="1.5" />
+      <circle cx="1520" cy="720" r="1.5" />
+      <circle cx="1680" cy="780" r="1.5" />
+      <circle cx="290" cy="920" r="1.5" />
+      <circle cx="420" cy="870" r="1.5" />
+      <circle cx="640" cy="940" r="1.5" />
+      <circle cx="850" cy="890" r="1.5" />
+      <circle cx="1010" cy="950" r="1.5" />
+      <circle cx="1180" cy="900" r="1.5" />
+      <circle cx="1350" cy="960" r="1.5" />
+      <circle cx="1560" cy="910" r="1.5" />
+      <circle cx="1730" cy="970" r="1.5" />
+    </g>
+    
+    <!-- Bright stars with glow effect -->
+    <g>
+      <circle cx="200" cy="240" r="2" />
+      <circle cx="200" cy="240" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="540" cy="320" r="2" />
+      <circle cx="540" cy="320" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="730" cy="120" r="2" />
+      <circle cx="730" cy="120" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1020" cy="380" r="2" />
+      <circle cx="1020" cy="380" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1370" cy="210" r="2" />
+      <circle cx="1370" cy="210" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1680" cy="340" r="2" />
+      <circle cx="1680" cy="340" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.8s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="280" cy="580" r="2" />
+      <circle cx="280" cy="580" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="620" cy="490" r="2" />
+      <circle cx="620" cy="490" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="910" cy="610" r="2" />
+      <circle cx="910" cy="610" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.6s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1230" cy="520" r="2" />
+      <circle cx="1230" cy="520" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1520" cy="640" r="2" />
+      <circle cx="1520" cy="640" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="5.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1760" cy="550" r="2" />
+      <circle cx="1760" cy="550" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="170" cy="780" r="2" />
+      <circle cx="170" cy="780" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.7s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="430" cy="690" r="2" />
+      <circle cx="430" cy="690" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.8s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="750" cy="810" r="2" />
+      <circle cx="750" cy="810" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.6s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1080" cy="740" r="2" />
+      <circle cx="1080" cy="740" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="5.4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1320" cy="850" r="2" />
+      <circle cx="1320" cy="850" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.1s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1590" cy="760" r="2" />
+      <circle cx="1590" cy="760" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.9s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1810" cy="880" r="2" />
+      <circle cx="1810" cy="880" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.7s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="320" cy="970" r="2" />
+      <circle cx="320" cy="970" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="5.1s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="610" cy="1020" r="2" />
+      <circle cx="610" cy="1020" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.3s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="950" cy="940" r="2" />
+      <circle cx="950" cy="940" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.3s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1270" cy="990" r="2" />
+      <circle cx="1270" cy="990" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="5.5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1490" cy="920" r="2" />
+      <circle cx="1490" cy="920" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="3.1s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1680" cy="1030" r="2" />
+      <circle cx="1680" cy="1030" r="1" fill="#FFFFFF" opacity="0.7">
+        <animate attributeName="r" values="1;3;1" dur="4.9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    
+    <!-- Largest stars with subtle color -->
+    <g>
+      <circle cx="350" cy="150" r="2.5" fill="#F8F8FF" />
+      <circle cx="350" cy="150" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="820" cy="290" r="2.5" fill="#FFFACD" />
+      <circle cx="820" cy="290" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1280" cy="120" r="2.5" fill="#E6E6FA" />
+      <circle cx="1280" cy="120" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1650" cy="220" r="2.5" fill="#F0F8FF" />
+      <circle cx="1650" cy="220" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="7s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="480" cy="510" r="2.5" fill="#FFF0F5" />
+      <circle cx="480" cy="510" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.5s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="980" cy="420" r="2.5" fill="#FFFAF0" />
+      <circle cx="980" cy="420" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.8s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1420" cy="560" r="2.5" fill="#F5F5F5" />
+      <circle cx="1420" cy="560" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1760" cy="380" r="2.5" fill="#F0FFFF" />
+      <circle cx="1760" cy="380" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="220" cy="680" r="2.5" fill="#F5F5DC" />
+      <circle cx="220" cy="680" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.8s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="670" cy="780" r="2.5" fill="#F0F8FF" />
+      <circle cx="670" cy="780" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1150" cy="640" r="2.5" fill="#FFFFF0" />
+      <circle cx="1150" cy="640" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="7.2s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1520" cy="820" r="2.5" fill="#F8F8FF" />
+      <circle cx="1520" cy="820" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.4s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="450" cy="920" r="2.5" fill="#F0FFFF" />
+      <circle cx="450" cy="920" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.7s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="850" cy="1010" r="2.5" fill="#F5F5F5" />
+      <circle cx="850" cy="1010" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.9s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1230" cy="930" r="2.5" fill="#FFF5EE" />
+      <circle cx="1230" cy="930" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="5.9s" repeatCount="indefinite" />
+      </circle>
+      
+      <circle cx="1620" cy="1000" r="2.5" fill="#F8F8FF" />
+      <circle cx="1620" cy="1000" r="1.5" fill="#FFFFFF" opacity="0.8">
+        <animate attributeName="r" values="1.5;4;1.5" dur="6.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Subtle galaxy/nebula effect in background -->
+  <g opacity="0.15">
+    <radialGradient id="galaxy1" cx="600" cy="300" r="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4B0082" />
+      <stop offset="100%" stop-color="#000510" stop-opacity="0" />
+    </radialGradient>
+    <circle cx="600" cy="300" r="250" fill="url(#galaxy1)" />
+    
+    <radialGradient id="galaxy2" cx="1400" cy="600" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#483D8B" />
+      <stop offset="100%" stop-color="#000510" stop-opacity="0" />
+    </radialGradient>
+    <circle cx="1400" cy="600" r="300" fill="url(#galaxy2)" />
+    
+    <radialGradient id="galaxy3" cx="900" cy="800" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4682B4" />
+      <stop offset="100%" stop-color="#000510" stop-opacity="0" />
+    </radialGradient>
+    <circle cx="900" cy="800" r="200" fill="url(#galaxy3)" />
+  </g>
+  
+  <!-- Occasional shooting star -->
+  <g>
+    <line x1="1200" y1="200" x2="1400" y2="400" stroke="#FFFFFF" stroke-width="1" opacity="0">
+      <animate 
+        attributeName="opacity" 
+        values="0;0;0;0;0.8;0" 
+        dur="15s" 
+        repeatCount="indefinite"
+        begin="5s" />
+    </line>
+    
+    <line x1="500" y1="700" x2="700" y2="900" stroke="#FFFFFF" stroke-width="1" opacity="0">
+      <animate 
+        attributeName="opacity" 
+        values="0;0;0;0;0.8;0" 
+        dur="20s" 
+        repeatCount="indefinite"
+        begin="12s" />
+    </line>
+  </g>
+</svg>
