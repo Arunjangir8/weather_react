@@ -78,7 +78,7 @@ const Contact = () => {
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Or email us directly at{" "}
             <a href="mailto:arunjangir9987@example.com" className="text-indigo-600 dark:text-blue-400 underline">
-              arunjangir9987@example.com
+              arunjangir9987@gamil.com
             </a>
           </p>
         </div>
